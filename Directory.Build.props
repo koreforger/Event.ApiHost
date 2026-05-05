@@ -1,0 +1,30 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Event</Authors>
+    <Company>Event</Company>
+    <PackageOutputPath>$(MSBuildThisFileDirectory)artifacts\</PackageOutputPath>
+    <RepositoryUrl>https://github.com/koreforger/Event.ApiHost</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/koreforger/Event.ApiHost</PackageProjectUrl>
+
+    <MinVerTagPrefix>Event.ApiHost/v</MinVerTagPrefix>
+    <MinVerAutoIncrement>minor</MinVerAutoIncrement>
+    <MinVerDefaultPreReleaseIdentifiers>alpha.0</MinVerDefaultPreReleaseIdentifiers>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(MinVerVersion)' != ''">
+    <Version>$(MinVerVersion)</Version>
+    <PackageVersion>$(MinVerPackageVersion)</PackageVersion>
+    <AssemblyVersion>$(MinVerAssemblyVersion)</AssemblyVersion>
+    <FileVersion>$(MinVerFileVersion)</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

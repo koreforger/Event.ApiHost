@@ -1,0 +1,38 @@
+<Project>
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <!-- Build tooling -->
+  <ItemGroup>
+    <PackageVersion Include="MinVer" Version="6.0.0" />
+  </ItemGroup>
+
+  <!-- Runtime -->
+  <ItemGroup>
+    <PackageVersion Include="KoreForge.SwaggerControllers.Abstractions" Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="KoreForge.AppLifecycle"                    Version="1.1.2" />
+    <PackageVersion Include="KoreForge.Logging.Serilog"                 Version="1.1.2" />
+    <PackageVersion Include="KoreForge.Metrics.AspNet"                  Version="1.1.2" />
+    <PackageVersion Include="KoreForge.Web"                             Version="1.1.2" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting"              Version="10.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Http"                 Version="10.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options"              Version="10.0.0" />
+    <PackageVersion Include="Scalar.AspNetCore"                         Version="2.4.0" />
+    <PackageVersion Include="Swashbuckle.AspNetCore"                    Version="7.2.0" />
+  </ItemGroup>
+
+  <!-- Test packages -->
+  <ItemGroup>
+    <PackageVersion Include="coverlet.collector"        Version="6.0.4"   />
+    <PackageVersion Include="coverlet.msbuild"          Version="6.0.4"   />
+    <PackageVersion Include="FluentAssertions"          Version="7.2.0"   />
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk"    Version="17.14.1" />
+    <PackageVersion Include="xunit"                     Version="2.9.3"   />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4"   />
+  </ItemGroup>
+
+</Project>
