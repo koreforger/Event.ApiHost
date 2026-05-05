@@ -1,0 +1,157 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+!/bin/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Generated files
+Generated Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Coverage results
+*.coverage
+*.coveragexml
+artifacts/
+TestResults/
+
+# Session/day output folder (not persisted)
+/out/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/
+*.axoCover
+
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# BenchmarkDotNet Artifacts
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/**/project.assets.json
+**/Properties/launchSettings.json
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+generated.*
+
+# OpenCover UI analysis results
+OpenCover/
+
+# Publish
+*.pubxml
+*.publishproj
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of PackageReference
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/buildMultiTargeting/
+!**/[Pp]ackages/buildTransitive/
+
+# Azure Functions localsettings file
+local.settings.json
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+# VS Code directories
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Other
+*.swp
+*.bak
+*.orig
+
+
+# Prevent accidental commits of NuGet-extracted package content
+/doc/KoreForge.*/
+/doc/Event.*/
+/docs/KoreForge.*/
+/docs/Event.*/
