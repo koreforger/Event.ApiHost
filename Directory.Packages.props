@@ -9,19 +9,37 @@
     <PackageVersion Include="MinVer" Version="6.0.0" />
   </ItemGroup>
 
-  <!-- Runtime -->
+  <!-- Runtime — KoreForge packages -->
   <ItemGroup>
-    <PackageVersion Include="KoreForge.SwaggerControllers.Abstractions" Version="0.0.0-alpha.0.1" />
-    <PackageVersion Include="KoreForge.AppLifecycle"                    Version="1.1.2" />
-    <PackageVersion Include="KoreForge.Logging.Serilog"                 Version="1.1.2" />
-    <PackageVersion Include="KoreForge.Metrics.AspNet"                  Version="1.1.2" />
-    <PackageVersion Include="KoreForge.Web"                             Version="1.1.2" />
+    <PackageVersion Include="KoreForge.AppLifecycle"                        Version="0.0.11-alpha.0" />
+    <PackageVersion Include="KoreForge.Logging.Serilog"                     Version="0.0.11-alpha.0" />
+    <PackageVersion Include="KoreForge.Metrics"                             Version="0.0.11-alpha.0" />
+    <PackageVersion Include="KoreForge.Metrics.AspNet"                      Version="0.0.11-alpha.0" />
+    <PackageVersion Include="KoreForge.Settings"                            Version="0.0.11-alpha.0" />
+    <PackageVersion Include="KoreForge.SwaggerControllers.Abstractions"     Version="0.0.11-alpha.0" />
+    <PackageVersion Include="KoreForge.Web.Authorization"                   Version="0.0.11-alpha.0" />
+    <PackageVersion Include="KoreForge.Web.HealthChecks"                    Version="0.0.11-alpha.0" />
     <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting"              Version="10.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Http"                 Version="10.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Options"              Version="10.0.0" />
-    <PackageVersion Include="Scalar.AspNetCore"                         Version="2.4.0" />
-    <PackageVersion Include="Swashbuckle.AspNetCore"                    Version="7.2.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi"                  Version="10.0.0" />
+    <PackageVersion Include="Scalar.AspNetCore"                             Version="2.4.1" />
+    <PackageVersion Include="Swashbuckle.AspNetCore"                        Version="7.2.0" />
+  </ItemGroup>
+
+  <!-- Runtime — Event.FraudIntegrationControllers packages -->
+  <ItemGroup>
+    <PackageVersion Include="Event.FraudIntegrationControllers.AssemblyMarker"                        Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.CashoutOrchestrator.V1"                Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.NedbankIdMFA.V1"                       Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.Party.V1"                              Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.Person.V1"                             Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.SASVIFinancialCrimeCaseManagement.V1"  Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.SuspendAccount.V1"                     Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.SuspendAccount.V2"                     Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.UserDetails.V1"                        Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.UserFederationDetail.V1"               Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.UserGroupFederationDetail.V1"          Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.UserGroupFederationDetail.V2"          Version="0.0.0-alpha.0.1" />
+    <PackageVersion Include="Event.FraudIntegrationControllers.UserstateForNID.V1"                    Version="0.0.0-alpha.0.1" />
   </ItemGroup>
 
   <!-- Test packages -->

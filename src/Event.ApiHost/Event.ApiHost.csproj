@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <KoreForgeAppLifecycleDocsTargetRoot>$(MSBuildProjectDirectory)\artifacts\KoreForge.AppLifecycle\</KoreForgeAppLifecycleDocsTargetRoot>
+  </PropertyGroup>
+
+  <!-- KoreForge infrastructure -->
+  <ItemGroup>
+    <PackageReference Include="KoreForge.AppLifecycle" />
+    <PackageReference Include="KoreForge.Logging.Serilog" />
+    <PackageReference Include="KoreForge.Metrics" />
+    <PackageReference Include="KoreForge.Metrics.AspNet" />
+    <PackageReference Include="KoreForge.Settings" />
+    <PackageReference Include="KoreForge.SwaggerControllers.Abstractions" />
+    <PackageReference Include="KoreForge.Web.Authorization" />
+    <PackageReference Include="KoreForge.Web.HealthChecks" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+  <!-- FraudIntegrationControllers -->
+  <ItemGroup>
+    <PackageReference Include="Event.FraudIntegrationControllers.AssemblyMarker" />
+    <PackageReference Include="Event.FraudIntegrationControllers.CashoutOrchestrator.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.NedbankIdMFA.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.Party.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.Person.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.SASVIFinancialCrimeCaseManagement.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.SuspendAccount.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.SuspendAccount.V2" />
+    <PackageReference Include="Event.FraudIntegrationControllers.UserDetails.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.UserFederationDetail.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.UserGroupFederationDetail.V1" />
+    <PackageReference Include="Event.FraudIntegrationControllers.UserGroupFederationDetail.V2" />
+    <PackageReference Include="Event.FraudIntegrationControllers.UserstateForNID.V1" />
+  </ItemGroup>
+
+</Project>

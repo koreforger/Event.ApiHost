@@ -1,5 +1,5 @@
 <Solution>
-  <Folder Name="/src/" />
+  <Project Path="src/Event.ApiHost/Event.ApiHost.csproj" />
   <Folder Name="/tst/" />
   <Folder Name="/database/" />
 </Solution>
